@@ -40,7 +40,7 @@ out = random( [2,1,2] );
 
 The function accepts the following `options`:
 
-*__r__: number of failures until the experiment is stopped. Default: `1`.
+*	__r__: number of failures until the experiment is stopped. Default: `1`.
 *	__p__: success probability. Default: `0.5`.
 *	__seed__: positive integer used as a seed to initialize the generator. If not supplied, uniformly distributed random numbers are generated via an underlying generator seedable by setting the `seed` property of the exported function.
 *	__dtype__: output data type (see [`matrix`](https://github.com/dstructs/matrix) for a list of acceptable data types). Default: `generic`.
